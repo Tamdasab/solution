@@ -1,0 +1,19 @@
+algorithm exo4;
+
+variables
+var n1 , n2 , i : integer;
+
+begin
+ write("n1 =");
+ read(n1);
+ write("n2 =");
+ read(n2);
+
+ i := 0;
+ for i=0 to n2 do
+ begin
+  n1 := n1 + n1;
+ end;
+
+write(n1);
+end.

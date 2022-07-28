@@ -1,0 +1,31 @@
+algorithm exo3;
+
+variables
+var s : string[100];
+var c1 , c2 : char;
+var i : integer;
+
+begin
+
+write("saisissez votre phrase :");
+read(s);
+
+write("saisissez c1 :");
+read(s);
+
+write("saisissez c2 :");
+read(s);
+
+i := 0;
+for i=0 to length(s) do
+ begin
+  if () then
+   c1 := c2
+  else
+   c2 := c1;
+
+  i++;
+ end;
+
+write(s);
+end.

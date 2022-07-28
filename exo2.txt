@@ -1,0 +1,24 @@
+algorithm exo2;
+
+variables
+var s : string[100];
+var i , count : integer;
+var e : " ";
+
+begin
+
+write("saisissez votre phrase :");
+read(s);
+
+while (i <> length(s)) do
+ begin
+  if (s <> e) then
+   count++
+  else if (s == e) then
+   count := 0;
+
+  i++;
+ endWhile;
+
+write(count);
+end.
